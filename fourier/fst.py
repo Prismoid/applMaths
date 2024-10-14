@@ -41,7 +41,7 @@ plt.title("Original Function")
 plt.xlabel("Time")
 plt.ylabel("Amplitude")
 
-# フーリエ変換結果をプロット
+# フーリエ級数展開の結果をプロット
 plt.subplot(1, 2, 2)
 for freq, fourier_result in zip(freqs, fourier_results):
     if np.abs(fourier_result) > 0.0001: 
